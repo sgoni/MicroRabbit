@@ -1,0 +1,12 @@
+﻿services:
+  microrabbit.infra.ioc:
+    image: microrabbit.infra.ioc
+    build:
+      context: .
+      dockerfile: MicroRabbit.Infra.IoC/Dockerfile
+
+  microrabbit.banking.api:
+    image: microrabbit.banking.api
+    build:
+      context: .
+      dockerfile: MicroRabbit.Banking.Api/Dockerfile
