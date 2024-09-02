@@ -1,6 +1,7 @@
-@MicroRabbit.Banking.Api_HostAddress = http://localhost:5246
-
-GET {{MicroRabbit.Banking.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+# curl -X 'GET' 
+#  'http://localhost:5246/api/Banking/GetAccounts' 
+#  -H 'accept: text/plain'
+GET {{url}}/GetAccounts
+accept: text/plain
 
 ###
