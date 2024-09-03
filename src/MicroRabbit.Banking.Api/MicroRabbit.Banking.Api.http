@@ -1,7 +1,29 @@
+# curl -X 'POST' 
+#  'http://localhost:5246/api/Banking/GetAccounts' 
+#  -H 'accept: */*' 
+#  -H 'Content-Type: application/json' 
+#  -d '{
+#  "fromAccount": 1,
+#  "toAccount": 2,
+#  "transferAmount": 110
+#}'
+POST {{url}}/api/Banking/GetAccounts
+accept: */*
+Content-Type: application/json
+
+{
+  "fromAccount": 1,
+  "toAccount": 2,
+  "transferAmount": 110
+}
+
+###
+
 # curl -X 'GET' 
 #  'http://localhost:5246/api/Banking/GetAccounts' 
 #  -H 'accept: text/plain'
-GET {{url}}/GetAccounts
+GET {{url}}/api/Banking/GetAccounts
 accept: text/plain
 
 ###
+

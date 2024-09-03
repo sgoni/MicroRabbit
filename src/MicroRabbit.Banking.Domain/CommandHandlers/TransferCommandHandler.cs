@@ -17,7 +17,7 @@ public class TransferCommandHandler : IRequestHandler<CreateTransferCommand, boo
     public Task<bool> Handle(CreateTransferCommand request, CancellationToken cancellationToken)
     {
         // public event to rabbitMQ
-        _eventBus.Publish(new TransfercreatedEvent(request.From, request.To, request.Amount));
+        _eventBus.Publish(new TransferCreatedEvent(request.From, request.To, request.Amount));
         return Task.FromResult(true);
     }
 }

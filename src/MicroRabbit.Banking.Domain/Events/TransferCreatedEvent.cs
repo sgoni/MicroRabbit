@@ -2,9 +2,9 @@
 
 namespace MicroRabbit.Banking.Domain.Events;
 
-public class TransfercreatedEvent : Event
+public class TransferCreatedEvent : Event
 {
-    public TransfercreatedEvent(int from, int to, decimal amount)
+    public TransferCreatedEvent(int from, int to, decimal amount)
     {
         From = from;
         To = to;
