@@ -8,9 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\" />
-      <Folder Include="Models\" />
-      <Folder Include="Services\" />
+        <Folder Include="Models\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj"/>
+        <ProjectReference Include="..\Microrabbit.Transfer.Domain\Microrabbit.Transfer.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

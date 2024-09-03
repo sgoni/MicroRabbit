@@ -1,6 +1,10 @@
 @MicroRabbit.Transfer.Api_HostAddress = http://localhost:5028
 
-GET {{MicroRabbit.Transfer.Api_HostAddress}}/weatherforecast/
+# curl -X 'GET' 
+#  'http://localhost:5028/api/Transfer' 
+#  -H 'accept: text/plain'
+
+GET http://localhost:5028//api/Transfer
 Accept: application/json
 
 ###

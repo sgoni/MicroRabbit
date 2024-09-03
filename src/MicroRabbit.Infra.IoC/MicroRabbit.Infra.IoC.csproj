@@ -16,6 +16,8 @@
         <ProjectReference Include="..\MicroRabbit.Banking.Data\MicroRabbit.Banking.Data.csproj"/>
         <ProjectReference Include="..\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj"/>
         <ProjectReference Include="..\MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj"/>
+        <ProjectReference Include="..\Microrabbit.Transfer.Application\Microrabbit.Transfer.Application.csproj"/>
+        <ProjectReference Include="..\Microrabbit.Transfer.Data\Microrabbit.Transfer.Data.csproj"/>
     </ItemGroup>
 
 </Project>
